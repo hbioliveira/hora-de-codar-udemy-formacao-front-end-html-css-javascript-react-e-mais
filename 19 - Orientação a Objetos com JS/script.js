@@ -1,3 +1,40 @@
+// Função Construtora - Utilizando uma função como classe
+
+// function criarChachorro(nome, raca) {
+
+//     const cachorro = Object.create({});
+
+//     cachorro.nome = nome;
+//     cachorro.raca = raca;
+
+//     return cachorro;
+// }
+
+// const bob = criarChachorro("Bob", "Vira-Lata");
+
+// console.log(bob);
+
+// 7 - Funções como classe
+
+// function Cachorro(nome, raca) {
+//     this.nome = nome
+//     this.raca = raca
+// }
+
+// const husky = new Cachorro('Rex', 'Husky');
+
+// console.log(husky);
+
+// 8 - Métodos na função construtora
+
+// Cachorro.prototype.uivar = function() {
+//     console.log('Auuuuu!');
+// }
+
+// console.log(Cachorro);
+
+// husky.uivar();
+
 // 9 - Classes ES6
 
 // class CachorroClasse {
