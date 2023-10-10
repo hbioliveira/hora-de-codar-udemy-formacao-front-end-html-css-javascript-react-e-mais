@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #db4444 0%, #3f24dd 98%);
+    color: white;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#multiplication-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: #333;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+/* #multiplication-operations {
+    background-color: white;
+} */
