@@ -36,20 +36,19 @@
  
 // 4 - Tratamento de Erro ou Dados por função
 
-function checkNumber(n) {
-    const result = Number(n);
+// function checkNumber(n) {
+//     const result = Number(n);
 
-    if (Number.isNaN(result)) {
-        console.log("Valor incorreto, tente novamente");
-        return;
-    }
+//     if (Number.isNaN(result)) {
+//         console.log("Valor incorreto, tente novamente");
+//         return;
+//     }
 
-    console.log("Valor correto!");
-    return result;
-}
+//     console.log("Valor correto!");
+//     return result;
+// }
 
-checkNumber(5)
-checkNumber("23")
-checkNumber({})
-checkNumber("not a number")
-
+// checkNumber(5)
+// checkNumber("23")
+// checkNumber({})
+// checkNumber("not a number")
