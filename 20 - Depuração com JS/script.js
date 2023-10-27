@@ -38,12 +38,21 @@
 
 // function checkNumber(n) {
 //     const result = Number(n);
+// function checkNumber(n) {
+//     const result = Number(n);
 
 //     if (Number.isNaN(result)) {
 //         console.log("Valor incorreto, tente novamente");
 //         return;
 //     }
+//     if (Number.isNaN(result)) {
+//         console.log("Valor incorreto, tente novamente");
+//         return;
+//     }
 
+//     console.log("Valor correto!");
+//     return result;
+// }
 //     console.log("Valor correto!");
 //     return result;
 // }
